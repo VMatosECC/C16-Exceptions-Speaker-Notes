@@ -54,7 +54,7 @@ void experiment02() {
 
 int main() {
 
-    //experiment01(); // Uses an improper invocation - main may die
+    experiment01(); // Uses an improper invocation - main may die
 
     //experiment02(); // Well framed call - uses try-catch blocks
                     // age errors will be caught and main will continue   
